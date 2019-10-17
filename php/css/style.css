@@ -1,19 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: bisque;
+    background: url(../img/forest.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-size: 16px;
 }
 
 main {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
 p {
-    font-size: 1.4em;
+    font-size: 1.8em;
+    text-align: center;
+    color:black;
 }
 
 ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: red;
+}
+
+li {
+    font-size: 200%;
+}
+
+.coolguy {
+    background-color: white;
 }
